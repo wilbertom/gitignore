@@ -1,0 +1,13 @@
+[package]
+
+name = "gitignore"
+version = "0.0.1"
+authors = ["Wilberto Morales <wilbertomorales777@gmail.com>"]
+
+[[bin]]
+
+name = "gitignore"
+
+[dependencies.curl]
+
+git = "https://github.com/carllerche/curl-rust/"
