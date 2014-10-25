@@ -5,6 +5,21 @@ Gitignore is a CLI tool for quickly adding `.gitignore`s to projects.
 
 We use [Github's repository](https://github.com/github/gitignore) as a source.
 
+Installing
+====
+
+We use the `Rust` programming language and `Cargo`, it's package manager.
+
+```
+
+git clone https://github.com/wilbertom/gitignore
+cd ./gitignore
+cargo build
+mv ./target/gitignore /usr/local/bin
+
+```
+
+
 Usage
 ====
 
